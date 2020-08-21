@@ -9,8 +9,6 @@ import java.util.Objects;
 public class Main extends JavaPlugin {
     private LeapMachine l=new LeapMachine();
     private StackSerialize st = LeapMachine.get_serializer();
-    public Main(){
-    }
 
     public void onEnable(){
         Objects.requireNonNull(this.getCommand("timeleap")).setExecutor(l);
