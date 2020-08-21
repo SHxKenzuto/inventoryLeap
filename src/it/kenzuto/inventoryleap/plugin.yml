@@ -1,0 +1,16 @@
+name: InventoryLeap
+main: it.kenzuto.inventoryleap.Main
+version: 1.1.0
+author: SHxKenzuto
+description: With this plugin you can check and restore players' inventories after their death
+api-version: 1.14
+commands:
+  timeleap:
+    usage: <command> [Player]
+    description: Restores an image of the player's inventory taken upon their death.
+  leapmachine:
+    usage: <command> [ON | OFF]
+    description: Activates and deactivates the plugin
+  listinventory:
+    usage: <command> [Player]
+    description: Prints the inventory content of a specified player.
